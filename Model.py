@@ -66,9 +66,5 @@ def Hello():
 def Paper():
     return render_template('Paper.html')
 
-@app.route('/Report')
-def Report():
-    return render_template('report.html')
-
 if __name__ == '__main__':
     app.run(debug=True)
